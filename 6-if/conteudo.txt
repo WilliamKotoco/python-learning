@@ -1,0 +1,26 @@
+As condições devem estar identadas dentro da estrutura, ou seja, uma embaixo da outra
+
+if condição:
+    codigo
+    codigo
+    codigo
+codigo fora da condição "if"
+
+Podemos avariguar para caso a condição não seja verdadeira. Essa verificação fica fora da identação do if
+
+if condição:
+    codigo
+    codigo
+    codigo
+else:
+    outro codigo
+
+Podemos verificar para mais condições ainda
+if condição:
+    codigo
+elif condicao2:    
+    codigo
+    if condicao3: 
+        print ("if dentro do if é possível !")
+else:
+    outro codigo
