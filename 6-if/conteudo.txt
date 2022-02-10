@@ -22,5 +22,22 @@ elif condicao2:
     codigo
     if condicao3: 
         print ("if dentro do if é possível !")
+    else: 
+        print("Caso condição3, dentro da condicao 2, nao seja realizada")
 else:
     outro codigo
+
+in = verificar se tem um texto dentro outro, not = negacao de algo 
+pass -- usa quando não quer fazer nada de dentro de uma condição
+
+ex: 
+if not '@' in email_user:
+     print ("emailinvalido")
+else: 
+    pass
+
+verificar se algum valor está preenchido ou não 
+if variavel and variavel2:
+    print("variaveis estão preenchidas")
+else: 
+    print("variaveis vazias")
