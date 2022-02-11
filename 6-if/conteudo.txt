@@ -28,7 +28,7 @@ else:
     outro codigo
 
 in = verificar se tem um texto dentro outro, not = negacao de algo 
-pass -- usa quando não quer fazer nada de dentro de uma condição
+pass = usa quando não quer fazer nada de dentro de uma condição
 
 ex: 
 if not '@' in email_user:
