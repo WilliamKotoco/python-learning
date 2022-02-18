@@ -1,0 +1,3 @@
+Fazer um aplicativo, com interface e tudo, para calcular calorias e macronutrientes. Após isso, fazer 
+uma dieta para emagrecimento ou crescimento dividindo os macronutrientes de acordo com a preferencia 
+do usuario
