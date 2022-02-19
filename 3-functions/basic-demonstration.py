@@ -7,7 +7,7 @@
 # Vantagens da função:
 # - deixa o código mais fácil de ler e debugar
 # - faz um código menor, eliminando redundância
-# - uma função, quando bem escrita, pode ser reutilizada em outros programas.
+# - uma função, quando bem escrita, pode ser reutilizada em outros programas.   
 import math
 
 
