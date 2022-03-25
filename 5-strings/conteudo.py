@@ -14,3 +14,5 @@ print(nome[3:5])
 # função para verificar o tamanho de uma stringer
 size = len(nome)
 print(size)
+print()
+print(nome[-6])
