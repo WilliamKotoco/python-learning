@@ -13,3 +13,8 @@ print("==================================================" * 3)
 # mudando varios elementos de uma vez
 nomes[1:3] = ['teste', 'teste']
 print(nomes)
+print()
+
+# criando lista com função range
+lista = list(range(1, 10))
+print(lista)

@@ -4,14 +4,14 @@ try:
     print(x)
 except:
     print("Algo deu errado")
-print("=====" * 20)
+print()
 try:
     print(x)
 except NameError:
     print("x não está definido")
 except:
     print("outro erro")
-print("=====" * 20)
+print()
 try:
     print("alo")
 except:

@@ -11,3 +11,7 @@ print()
 for i, item in enumerate(produtos):
     print("Item {}, nome {}".format(i, item))
 print()
+
+# decrementação
+for i in range(20, 10, -1):
+    print(i, end=" ")
