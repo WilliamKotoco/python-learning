@@ -7,7 +7,7 @@
 # Vantagens da função:
 # - deixa o código mais fácil de ler e debugar
 # - faz um código menor, eliminando redundância
-# - uma função, quando bem escrita, pode ser reutilizada em outros programas.   
+# - uma função, quando bem escrita, pode ser reutilizada em outros programas.
 import math
 
 
@@ -28,13 +28,17 @@ print(math.pi)
 
 def teste():
     print("Testando função sem parâmetro")
-    print("===" * 5)
 
 
-def soma(x, y):
+# ao dar valores ao x, caso o usuário não declare nenhum valor na chamada da função
+def soma(x=3, y=3):
     soma = x+y
-    print(soma)
+    return soma
 
 
 print(teste())
 print(soma(7, 3))
+print(soma())
+
+print()
+
