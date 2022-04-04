@@ -11,3 +11,7 @@ DIAL_CODES = [
 ]
 codigo_pais = {country: code for code, country in DIAL_CODES}
 print(codigo_pais)
+print()
+outroDicionario = {f'quadrado{x}':x**2 for x in range(10)}
+print(outroDicionario)
+

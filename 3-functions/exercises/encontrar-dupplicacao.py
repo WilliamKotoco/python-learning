@@ -34,15 +34,17 @@ repetido = 0
 
 
 def procurandoDuplicado(lista):
-    if len(set(lista)) == 10:
-        return -1
-    else:
-        for item in lista:
-            for i in range(len(lista)):
-                if i == item:
-                    break
-            return i
-
+    listaSemRepeticao = set()
+    numero_repetido = -1  #vamos colocar que a lista não tem repetido por padrão.
+    for item in lista:
+        # Para cada item vamos checar se o item da lista normal tem um igual na lista sem repetição
+        # se ele estiver, significa que ele é o primeiro repetido]
+        ## caso não tiver, será adicionado na lista 
+        if item in listaSemRepeticao: 
+            numero_repetido = item
+            break
+        listaSemRepeticao.add(item)
+    return numero_repetido
 
 for i in lista_de_listas_de_inteiros:
     print(procurandoDuplicado(i))
