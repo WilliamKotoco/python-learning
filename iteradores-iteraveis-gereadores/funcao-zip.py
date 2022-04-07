@@ -1,7 +1,7 @@
 
 # funcionamento da função zip
 
-from itertools import zip_longest
+from itertools import count, zip_longest
 
 
 lista1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -14,3 +14,9 @@ for i in unindo:
 unindo2 = zip_longest(lista1, lista2, fillvalue='Número')
 for k in unindo2:
     print(k)
+print()
+# a função count da um contador infinito, muito útil para esse exemplo
+nomes = ['João', 'Carlos', 'Maris', 'Stella']
+ids = count()
+tabela = zip(nomes, ids)
+print(list(tabela))
