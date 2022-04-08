@@ -1,4 +1,8 @@
 
+from functools import reduce
+from optparse import Values
+
+
 pessoas = ['joao', 'carlos', 'carosi', 'jotape', 'alo', 'nome3', 'semnome',
            'mudinho', 'falador', 'surdo', 'ReiDelas', 'quatorze', 'catorze']
 
@@ -22,3 +26,18 @@ for i in listaAoQuadrado:
 
 print(produtos)
 print()
+#  função filter
+pessoasFiltradas = filter(lambda p: p.startswith('c'), pessoas)
+print(list(pessoasFiltradas))
+print()
+
+# produtosFiltrados = [i['nome'] for i in produtos if i['preço'] > 20]
+produtosFiltrados = filter(lambda p: p['preço'] > 20, produtos)
+print(list(produtosFiltrados))
+print()
+
+#  funçaõ reduce
+
+
+somaPrecos = reduce(lambda x, y: x + y['preço'], produtos, 0)
+print(somaPrecos)
