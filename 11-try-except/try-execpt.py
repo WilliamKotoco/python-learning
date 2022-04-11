@@ -27,7 +27,7 @@ lista = []
 try:
     print(lista[1])
 except(IndexError, ValueError):
-    print("Erro de index ou de valor")
+    print("Linha 30: Erro de index ou de valor")
 finally:
     print('Vai acontecer sempre, dando certo ou errado')
 # o finally é útil quando deve-ser fazer coisas que sempre acontecerão, como
