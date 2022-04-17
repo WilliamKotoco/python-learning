@@ -2,7 +2,7 @@
 # https://youtu.be/r7Dtus7N4pI
 
 def funcao1(outra_funcao):
-    def organizar(*args, **kwarg
+    def organizar(*args, **kwargs):
         print('Começo')
         val = outra_funcao(*args, **kwargs)
         print('fim')
